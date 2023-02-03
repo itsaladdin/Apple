@@ -279,4 +279,19 @@ section h1 span{
     margin-top: 40px;
 }
 
+------------------------------------------------POPUP-----------------------------------------------------------------
 
+
+section, #pop
+{
+    border: 5px solid black;
+    color: black;
+    text-align: center;
+}
+.pop
+{
+    color: black;
+}
+.pup{
+    text-align: center;
+}
