@@ -5,23 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Document</title>
 </head>
 <body>
     <main>
+        <button onclick="document.getElementById('id01').style.display='block'">Log in</button>
+
+        <div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
         <section id="pop">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span><br>
+
             <h1 class="pop">
-                Apple Specialists are here for you.
+                Apple Specialists are here for you
             </h1>
             <h3 class="pup">
                 Need help finding what’s right for you? Shop with a Specialist online. 
                 Or reserve a shopping session at an Apple Store. American Sign Language interpreters 
                 are also available in stores and online through SignTime, an on-demand video service.
             </h3>
-            <a href="#">Shop with a Specialist online </a><br><br>
-            <a href="#">Contact us in American Sign Language </a><br><br>
-            <a href="#">Reserve an in-store shopping session </a><br><br>
+            <a href="#" class="pip">Shop with a Specialist online </a><br><br>
+            <a href="#" class="pip">Contact us in American Sign Language </a><br><br>
+            <a href="#" class="pip">Reserve an in-store shopping session </a><br><br>
         </section>
+    </div>
+
+        
     </main>
 </body>
+<script src="script.js"></script>
 </html>
