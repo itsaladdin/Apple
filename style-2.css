@@ -435,6 +435,7 @@ hr{
 #sec7 div
 {
   width: 10%;
+  position: relative;
 }
 
 #myVideo {
@@ -445,7 +446,7 @@ hr{
   border-radius: 1% 1%;
 }
 
-.content {
+.content #myVideo{
   position: fixed;
   bottom: 0;
   color: #f1f1f1;
@@ -459,8 +460,8 @@ hr{
   color: white;
   width: 500px;
   font-size: 20px;
-  margin-top: -250%;
-  margin-left: 100%;
+  margin-top: -3300%;
+  margin-left: 3500%;
 }
 
 .content p
@@ -468,8 +469,7 @@ hr{
   color: white;
   width: 500px;
   font-size: 100px;
-  margin-bottom: 0%;
-  margin-left: 100%;
+  margin-left: 3500%;
 }
 
 .content h6
@@ -477,8 +477,7 @@ hr{
   color: white;
   width: 500px;
   font-size: 20px;
-  margin-bottom: 0%;
-  margin-left: 230%;
+  margin-left: 5000%;
 }
 
 #myBtn {
@@ -488,8 +487,8 @@ hr{
   border: none;
   background: #000;
   color: #fff;
- margin-left: 600%;
- margin-top: 100%;
+  margin-top: 800%;
+  margin-left: 8000%;
   cursor: pointer;
 }
 
