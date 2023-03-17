@@ -414,3 +414,86 @@ hr{
     font-weight: inherit;
     line-height: inherit;
   }
+
+  #sec3 img
+ {
+   width: 60%;
+   margin-bottom: 1%;
+   text-align: center;
+   height:66%;
+   margin-left: 0%;
+ }
+#sec3 a
+{
+   color: lightskyblue;
+   font-size: 1.3em;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+}
+
+#sec7 div
+{
+  width: 10%;
+}
+
+#myVideo {
+  width: 900%; 
+  height: 10%;
+  margin-left: 50%;
+  margin-top: 50%;
+  border-radius: 1% 1%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-left: 20%;
+}
+
+.content h1
+{
+  color: white;
+  width: 500px;
+  font-size: 20px;
+  margin-top: -250%;
+  margin-left: 100%;
+}
+
+.content p
+{
+  color: white;
+  width: 500px;
+  font-size: 100px;
+  margin-bottom: 0%;
+  margin-left: 100%;
+}
+
+.content h6
+{
+  color: white;
+  width: 500px;
+  font-size: 20px;
+  margin-bottom: 0%;
+  margin-left: 230%;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+ margin-left: 600%;
+ margin-top: 100%;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

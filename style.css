@@ -31,6 +31,7 @@ nav ul li a{
     font-weight: inherit;
     line-height: inherit;
     color: rgb(197, 196, 196); 
+    text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -495,19 +496,3 @@ section, #pop
    text-align: center;
    font-size: 1.2em;
  }
-#sec3 img
- {
-   width: 60%;
-   margin-bottom: 1%;
-   text-align: center;
-   height:66%;
-   margin-left: 0%;
- }
-#sec3 a
-{
-   color: lightskyblue;
-   font-size: 1.3em;
-   text-align: center;
-   text-decoration: none;
-   display: block;
-}
