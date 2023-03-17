@@ -443,7 +443,8 @@ hr{
   height: 10%;
   margin-left: 50%;
   margin-top: 50%;
-  border-radius: 1% 1%;
+  border-radius: 2.5% 2.5%;
+  cursor: pointer;
 }
 
 .content #myVideo{
@@ -453,6 +454,7 @@ hr{
   width: 100%;
   padding: 20px;
   margin-left: 20%;
+  cursor: pointer;
 }
 
 .content h1
@@ -462,6 +464,7 @@ hr{
   font-size: 20px;
   margin-top: -3300%;
   margin-left: 3500%;
+  cursor: pointer;
 }
 
 .content p
@@ -470,6 +473,7 @@ hr{
   width: 500px;
   font-size: 100px;
   margin-left: 3500%;
+  cursor: pointer;
 }
 
 .content h6
@@ -478,6 +482,7 @@ hr{
   width: 500px;
   font-size: 20px;
   margin-left: 5000%;
+  cursor: pointer;
 }
 
 #myBtn {
